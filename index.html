@@ -24,15 +24,17 @@
 
                 
                 <form method="post" enctype="multipart/form-data">
-                    <fieldset class="child-info"><legend>Informações da criança</legend>
-                    
+                    <fieldset class="child-info">
+                        <legend>Informações da criança</legend>
+
                         <div class="input-wrapper">
                             <label for="fullname">Nome Completo</label>
                             <input id="fullname" type="text"
                             placeholder="Qual o nome da criança">
                         </div>
 
-                        <div class="input-wrapper"><label for="birth">Data de nascimento</label><input type="date" id="birth" lang="pt-br">
+                        <div class="input-wrapper">
+                            <label for="birth">Data de nascimento</label><input type="date" id="birth" lang="pt-br">
                         </div>
 
                         <div class="select-wrapper">
@@ -44,18 +46,18 @@
                             </select>
                         </div>
 
-                            <div class="textarea-wrapper">
+                        <div class="textarea-wrapper">
                                 <label for="medical-info">Informações médicas</label>
                                 <textarea name="medical-info" id="medical-info"
                                 cols="30" rows="10"
                                 placeholder="A criança possui alguma condição médica que a escola deve esta ciente? (Se sim, especifique)"></textarea>
-                            </div>
-
-                            <div class="droparea-wrapper">
+                        </div>
+                        
+                        <div class="droparea-wrapper">
                                 <input type="file" id="birth-file" name="birth-file">
                                 <img src="assets/icons/cloud-upload.svg" alt="">
                                 <p>Clique aqui para <br> seleceionar os arquivos</p>
-                            </div>
+                        </div>
 
                     </fieldset>
                 </form>
